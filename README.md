@@ -1,9 +1,9 @@
 # NDBlockchain - Project#5:
 
-#### 1. Your ERC-721 Token Name: 
+#### 1. ERC-721 Token Name: 
 > --> NStarToken
 
-#### 2. Your ERC-721 Token Symbol: 
+#### 2. ERC-721 Token Symbol: 
 > --> NST
 
 #### 3. Version of the Truffle and OpenZeppelin used:
