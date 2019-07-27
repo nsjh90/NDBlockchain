@@ -55,11 +55,12 @@ const App = {
       App.setStatus("Star ID: ","starData");
       App.setStatus("Token Name: ","contract");
       App.setStatus("Token Symbol: ","symbol");
-    }else{
-      App.setStatus("Star owned.","status");
+    }else{ 
+    // Reviewer comment: In the else part you need to contain only one App.setStatus() because 
+    //if you create multiple App.setStatus() then only the last one will execute. 
+    //So, you can keep the star id and starname and remove the rest.
+      //App.setStatus("Star owned.","status");
         App.setStatus("Star ID: "+id+" is named "+starName,"starData");
-        App.setStatus("Token Name: "+contract,"contract");
-        App.setStatus("Token Symbol: "+sym,"symbol");
     }
     
   }
